@@ -159,7 +159,7 @@
     background-image: url(https://autogen.com/wp-content/uploads/2019/04/Plants-768x513.jpeg);
     background-repeat: no-repeat;
     z-index: -1;
-    background-size: 100% 109%;
+    background-size: 100% 111%;
   }
  
    #navbar{
@@ -275,7 +275,7 @@
 }
 .cvv{
   width: fit-content;
-  margin-top: 12rem;
+  margin-top: 11rem;
   margin-left: 2rem;
 
 }
