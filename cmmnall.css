@@ -1,0 +1,131 @@
+:root{
+    background-color: black;
+    
+}
+#navbar{
+    background-color: rgb(127, 255, 115);
+    display: flex;
+    opacity: .9;
+    height: 59px;
+    margin-bottom: 2rem;
+    border-radius: 200px;
+    margin-top: 10px;
+   /* position: relative;/list in column way*/
+}
+#navbar ul {
+ list-style: none;
+   display: flex;
+ }
+#navbar ul li a{
+ display: block;
+ font-size: 1rem;
+ padding:.2px 22px;
+ border-radius: 20px;
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+ font-weight: 700;
+ 
+}
+#navbar ul li a:hover{
+ background-color: rgb(255, 255, 255);
+ color: rgb(255, 0, 0);
+ opacity: .5;
+ font-size: 25px;
+ cursor: pointer;
+}
+.uppm{background-image: url(https://www.ccmb.res.in/administator/uploads/group/mukesh_grp.jpg);
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    height: 20rem;
+    margin-bottom: 1%;
+
+    
+}
+.bsde{
+    margin-left: 4%;
+    margin-right: 4%;
+    background-image: url(https://pbs.twimg.com/media/DkboXjEXcAAGpXb.jpg);   
+    color: rgb(240, 241, 255); 
+    background-repeat: no-repeat;
+    background-size: 100% 103%;
+    opacity: .9;
+}
+.post{
+    padding: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.dution{
+    padding: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.pctn{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.pctndes li{
+    padding-bottom : .5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: .3%;
+    list-style: none;
+}
+.tchncl{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.bkisb li{
+    padding-bottom : .5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: .3%;
+}
+@media only screen and (max-width:600px){
+    #navbar{
+         
+      display: flex;
+      height: 49px;
+      margin-bottom: 2rem;
+      border-radius: 100px;
+      overflow: auto;
+      position:sticky;
+      background-color: rgb(127, 255, 115);
+     /* position: relative;/list in column way*/
+  }
+  #navbar ul {
+   list-style: none;
+     display: flex;
+   }
+  #navbar ul li a{
+   display: block;
+   font-size: 1rem;
+   padding: 3px 8px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+   font-weight: 700;
+   
+  }
+  #navbar ul li a:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(255, 0, 0);
+   opacity: .5;
+   font-size: 25px;
+   cursor: pointer;
+  }
+  .uppm{background-image: url(https://www.ccmb.res.in/administator/uploads/group/mukesh_grp.jpg);
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    background-size: 100% 90%;
+    height: 20rem;
+}
+  
+}

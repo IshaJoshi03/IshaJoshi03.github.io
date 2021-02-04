@@ -1,0 +1,129 @@
+:root{
+  background-image: url(https://edgy.app/wp-content/uploads/2018/04/New-DNA-structure-feature-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 170%;
+  opacity: .96;
+}
+
+#navbar{
+       
+  display: flex;
+  height: 59px;
+  margin-bottom: 3rem;
+  border-radius: 200px;
+  /*overflow: auto;*/
+  position:sticky;
+  background-color: rgb(28, 255, 255);
+  width: 100%;
+  top: 0%;
+  z-index: +1;
+ /* position: relative;/list in column way*/
+}
+ #navbar ul {
+  list-style: none;
+    display: flex;
+  }
+#navbar ul li a{
+  display: block;
+  font-size: 1rem;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+#navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+.into{
+  margin-left: 2%;
+  margin-right: 2%;
+
+} 
+.upp{font-size: 1.5rem;
+  padding-top: .5%;
+  padding-right:  2%;
+  padding-left: 2%;
+  font-weight: bolder;
+  color: rgb(229, 255, 0);
+  
+
+} 
+.lik{
+font-size: 2rem;
+padding-top: 2%;
+padding-right:  2%;
+padding-left: 2%;
+font-weight: bolder;
+color: rgb(200, 255, 0);
+
+}
+.nii a{
+  
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nii a:hover{
+  font-size: 1.8rem;
+  background-color:blue;
+  
+}
+.nii{
+font-size: 1.5rem;
+padding: 2%;
+font-weight: bold;
+
+}
+@media only screen and (max-width:600px){
+  :root{
+    background-image: url(https://edgy.app/wp-content/uploads/2018/04/New-DNA-structure-feature-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 170%;
+    opacity: .96;
+  }
+   #navbar{
+       
+      display: flex;
+      height: 49px;
+      margin-bottom: 2rem;
+      border-radius: 100px;
+      overflow: auto;
+      position:sticky;
+      background-color: rgb(28, 255, 255);
+      
+     /* position: relative;/list in column way*/
+    }
+  #navbar ul {
+   list-style: none;
+     display: flex;
+   }
+ #navbar ul li a{
+   display: block;
+   font-size: 1rem;
+   padding: 3px 8px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+   font-weight: 700;
+   
+ }
+ #navbar ul li a:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(255, 0, 0);
+   opacity: .5;
+   font-size: 25px;
+   cursor: pointer;
+ }
+ .nii{
+  font-size: 1.5rem;
+  padding: 5%;
+  font-weight: bold;
+
+}}

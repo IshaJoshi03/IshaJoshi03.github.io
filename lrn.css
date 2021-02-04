@@ -1,0 +1,296 @@
+
+:root{
+  background-image: url(https://autogen.com/wp-content/uploads/2019/04/Plants-768x513.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+}
+  /* #navbar::before
+  {
+    content: "";
+    background-color: rgba(255, 0, 0, 0.596);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+   /* opacity: .5;
+  }*/
+   #navbar{
+       
+       display: flex;
+       height: 59px;
+       margin-bottom: 3rem;
+       border-radius: 200px;
+       /*overflow: auto;*/
+       position:sticky;
+       background-color: rgb(183 176 54 / 80%);
+       width: 100%;
+       top: 0%;
+       z-index: +1;
+      /* position: relative;/list in column way*/
+   }
+   #navbar ul {
+    list-style: none;
+      display: flex;
+    }
+  #navbar ul li a{
+    display: block;
+    font-size: 1rem;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  #navbar2 ul li{
+    list-style: none;
+    width: fit-content;
+    
+    }
+  #navbar2 ul li a{
+    display: block;
+    padding: 7px ;
+    text-decoration: none;
+    color: rgba(94, 226, 17);
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+    margin: 8px;
+  }
+  .iteme{
+    font-size: 1.5rem ;
+    font-weight: 700;
+  }
+  #navbar2 ul li:nth-child(1){
+   margin-top: 0px;
+   margin-bottom: 37px;
+   color:rgba(94, 226, 17);
+  }
+  #section1{
+  
+  }
+
+  #navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  #navbar2 ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .imgh{
+    margin-top: 4%;
+    height: 16rem;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-image: url(cdf.png);
+    
+  }
+
+
+  #navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .container{
+    
+    display:grid;
+    grid-template-columns: 23% 70% ;
+    align-content: flex-start;
+    height: 39rem;
+   
+ }
+
+  
+  
+
+  #section3{
+    
+    
+   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    margin-bottom: 1rem;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: rgb(255, 204, 0);
+    z-index: 1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+    
+    font-size: 1.6rem;
+    
+  }
+  .cvv{
+    width: fit-content;
+    margin-top: 15rem;
+    margin-left: 10rem;
+  
+  }
+  .cvv a{
+  
+    color: rgb(255, 204, 0);
+    display: block;
+    
+  }
+  .cvv a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  
+@media only screen and (max-width:600px){
+  :root{
+    background-image: url(https://autogen.com/wp-content/uploads/2019/04/Plants-768x513.jpeg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: 100% 109%;
+  }
+ 
+   #navbar{
+       
+       display: flex;
+       height: 49px;
+       margin-bottom: 2rem;
+       border-radius: 100px;
+      /* overflow: auto;*/
+       position:sticky;
+      /* background-color: rgba(255, 0, 0, 0.596);*/
+      color: rgba(94, 226, 17);
+       width: 100%;
+       top: 0%;
+       z-index: +1;
+      /* position: relative;/list in column way*/
+   }
+   #navbar ul {
+    list-style: none;
+      display: flex;
+    }
+  #navbar ul li a{
+    display: block;
+    font-size: 1rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    
+  }
+  #navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #navbar2 ul li{
+    list-style: none;
+    width: 10%;
+    }
+    
+  #navbar2 ul li a{
+    display: block;
+    padding: 3px ;
+    text-decoration: none;
+    color: rgba(94, 226, 17);
+    font-size: 1rem;
+    font-weight: 700;
+    
+    margin: 7px;
+    
+  }
+  #navbar2 ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .iteme{
+    font-size: 1rem ;
+    font-weight: 700;
+    
+  }
+  #navbar2 ul li:nth-child(1){
+   margin-top: 0px;
+   margin-bottom: 30px;
+   width: fit-content;
+   color:rgba(94, 226, 17);
+  
+  }
+  .container{
+    
+    display:grid;
+    grid-template-columns: 25% 70% ;
+    column-gap: 3%;
+    padding: 0rem;
+    height: 39rem;
+    
+   
+ }
+ .imgh{
+  margin-top: 5%;
+  height: 16rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(cdf.png);
+ 
+}
+#navbar2 ul{
+ padding-inline-start: 0%;
+ 
+}
+#section3{
+    
+    
+   
+  
+  padding-right: .4rem;
+  
+  margin-bottom: 1rem;
+ 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(255, 204, 0);
+  z-index: 1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+  
+  font-size: 1rem;
+  
+}
+.cvv{
+  width: fit-content;
+  margin-top: 7rem;
+  margin-left: 3rem;
+
+}
+.cvv a{
+
+  color: rgb(255, 204, 0);
+  display: block;
+  
+}
+.cvv a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  opacity: .5;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+}
