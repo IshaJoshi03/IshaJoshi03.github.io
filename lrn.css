@@ -261,7 +261,7 @@
     
    
   
-  padding-right: .4rem;
+  padding-right: .1rem;
   
   margin-bottom: 1rem;
  
@@ -270,13 +270,13 @@
   color: rgb(255, 204, 0);
   z-index: 1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
   
-  font-size: 1rem;
+  font-size: .8rem;
   
 }
 .cvv{
   width: fit-content;
-  margin-top: 7rem;
-  margin-left: 3rem;
+  margin-top: 12rem;
+  margin-left: 2rem;
 
 }
 .cvv a{
