@@ -229,7 +229,7 @@
   }
   #navbar2 ul li:nth-child(1){
    margin-top: 0px;
-   margin-bottom: 30px;
+   margin-bottom: 90px;
    width: fit-content;
    color:rgba(94, 226, 17);
   
@@ -246,11 +246,11 @@
  }
  .imgh{
   margin-top: 5%;
-  height: 16rem;
-  background-size: 100% 100%;
+  height: 11rem;
+  background-size: 101% 100%;
   background-repeat: no-repeat;
   background-image: url(cdf.png);
- 
+  
 }
 #navbar2 ul{
  padding-inline-start: 0%;
