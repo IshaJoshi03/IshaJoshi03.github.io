@@ -1,0 +1,146 @@
+:root{
+    background-color: black;
+    
+}
+#navbar{
+    background-color: rgb(127, 255, 115);
+    display: flex;
+    opacity: .9;
+    height: 59px;
+    margin-bottom: 2rem;
+    border-radius: 200px;
+    margin-top: 10px;
+   /* position: relative;/list in column way*/
+}
+#navbar ul {
+ list-style: none;
+   display: flex;
+ }
+#navbar ul li a{
+ display: block;
+ font-size: 1rem;
+ padding:.2px 22px;
+ border-radius: 20px;
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+ font-weight: 700;
+ 
+}
+#navbar ul li a:hover{
+ background-color: rgb(255, 255, 255);
+ color: rgb(255, 0, 0);
+ opacity: .5;
+ font-size: 25px;
+ cursor: pointer;
+}
+.uppm{background-image: url(http://addsoftdns.com/wp-content/uploads/2020/03/slider_2-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 30rem;
+    margin-bottom: 1%;
+    
+}
+.bsde::before{
+    background-image: url(https://i.pinimg.com/originals/9f/13/a6/9f13a6ae4d7626a2c0d2298dc2673bc7.jpg);
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 91.2%;
+    position:absolute;
+    content: "";
+
+}
+.bsde{
+    margin-left: 4%;
+    margin-right: 4%;
+       
+    color: rgb(255, 255, 255); 
+   
+}
+.post{
+    padding: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.dution{
+    padding: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.pctn{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.pctndes li{
+    padding-bottom : .5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: .3%;
+    list-style: none;
+}
+.tchncl{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.bkisb li{
+    padding-bottom : .5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: .3%;
+}
+@media only screen and (max-width:600px){
+    #navbar{
+         
+      display: flex;
+      height: 49px;
+      margin-bottom: 2rem;
+      border-radius: 100px;
+      overflow: auto;
+      position:sticky;
+      background-color: rgb(127, 255, 115);
+     /* position: relative;/list in column way*/
+  }
+  #navbar ul {
+   list-style: none;
+     display: flex;
+   }
+  #navbar ul li a{
+   display: block;
+   font-size: 1rem;
+   padding: 3px 8px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+   font-weight: 700;
+   
+  }
+  #navbar ul li a:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(255, 0, 0);
+   opacity: .5;
+   font-size: 25px;
+   cursor: pointer;
+  }
+  .bsde::before{
+      background-image: none;
+  }
+  .bsde{
+    margin-left: 4%;
+    margin-right: 4%;
+    background-image: url(https://i.pinimg.com/originals/9f/13/a6/9f13a6ae4d7626a2c0d2298dc2673bc7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+    color: rgb(255, 255, 255); 
+   
+}
+  
+}

@@ -39,14 +39,23 @@
 .container{
     margin-top: 3%;
     display:grid;
-    grid-template-columns:33% 28% 28% ;
+    grid-template-columns:28% 33% 28% ;
     grid-column-gap:4rem ;
     
     margin-left: 3%;
 
 }
 
-
+a.item0{
+  height: 31rem;
+  background-image: url("https://www.eqmagpro.com/wp-content/uploads/2019/12/Tender-for-Solar-Heat-reflective-paint-over-terrace-surfaces.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .7;
+  margin: 3%;
+}
+a.item0:hover{
+height: 33rem;}
 a.item2{
     height: 31rem;
     background-image: url(csir.png);
@@ -139,6 +148,17 @@ height: 29rem;
   
   margin-left: 3%;
 
+}
+a.item0{
+  height: 31rem;
+  background-image: url(https://www.eqmagpro.com/wp-content/uploads/2019/12/Tender-for-Solar-Heat-reflective-paint-over-terrace-surfaces.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .7;
+  margin: 3%;
+}
+a.item0:hover{
+height: 33rem;
 }
 a.item2{
   height: 31rem;
