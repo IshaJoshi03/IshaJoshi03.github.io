@@ -45,6 +45,17 @@
     margin-left: 3%;
 
 }
+a.item01{
+  height: 31rem;
+  background-image: url(maxprut11.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .7;
+  margin: 3%;
+}
+a.item01:hover{
+height: 33rem;
+}
 
 a.item0{
   height: 31rem;
@@ -149,6 +160,18 @@ height: 29rem;
   margin-left: 3%;
 
 }
+a.item01{
+  height: 31rem;
+  background-image: url(maxprut11.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .7;
+  margin: 3%;
+}
+a.item01:hover{
+height: 33rem;
+}
+
 a.item0{
   height: 31rem;
   background-image: url(https://www.eqmagpro.com/wp-content/uploads/2019/12/Tender-for-Solar-Heat-reflective-paint-over-terrace-surfaces.png);
